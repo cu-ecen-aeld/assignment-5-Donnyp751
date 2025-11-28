@@ -1,2 +1,2 @@
 name: aesd_assignment
-description: Base customization for aesd buildroot assignments
+description: Base customization for aesd buildroot assignments including ldd modules

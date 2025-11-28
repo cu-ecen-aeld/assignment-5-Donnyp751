@@ -1,0 +1,7 @@
+
+config BR2_PACKAGE_LDD
+	bool "ldd"
+	depends on BR2_LINUX_KERNEL
+	help
+	  Misc programs and kernel modules from the LDD3 examples repository.
+	  Builds and installs userspace programs and out-of-tree kernel modules.
