@@ -1,0 +1,8 @@
+
+config BR2_PACKAGE_ASSIGNMENT_3_LATER
+	bool "assignment-3-later"
+	depends on BR2_LINUX_KERNEL
+	help
+	  AESD char driver kernel module and aesdsocket server from
+	  assignments-3-and-later repository. Includes init scripts
+	  to load the kernel module and start the socket server on boot.
